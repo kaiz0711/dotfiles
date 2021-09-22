@@ -1,1 +1,1714 @@
-{}
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [],
+    "/usr/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1632376277520
+    },
+    "/usr/bin/python2.7.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1632376277948
+    },
+    "/usr/bin/python2.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1632376277943
+    },
+    "/usr/local/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d2749cbcb2b0fbe40228bba6aa044cb195c90941c23223bc8d6c9d227e8b1740ce8424c5db1a751776cfe1e88111cb5f7e7557cd84867401e09140d4e8d12d3b"
+      },
+      "expiry": 1632376277953
+    },
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258"
+      },
+      "expiry": 1632376277955
+    },
+    "/Users/kaiz/Desktop/DHMT/env/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "e7712412d79c459bda8d4922c037e7dbaa0b760606973fca29ab4c408425c1a48036a6dd64d7cb7d64b9710459d3569b1b6f7308c7bc4c2fe8fe46f094357964"
+      },
+      "expiry": 1632376278072
+    },
+    "/Users/kaiz/Desktop/DHMT/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "50f12cb70e43cc88d1b43973ef379a3485128fe33d149b65aaa8b20e8db9138caf551f93c64a32126f74e9aa958505d2c87eddc903159e3e87991eac6efcb492"
+      },
+      "expiry": 1632376278080
+    },
+    "/Users/kaiz/Desktop/DHMT/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "b7c3ce3ab945e915be66ddb6437c0e6346a9d51839c9bfb8114bd0b6545d51a83ab97c961618231b9b2fa0d1ee2d3bfb5b2c20ccd9492dd3c4307ab9186331a9"
+      },
+      "expiry": 1632376278077
+    },
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1632376278091
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.7-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.7-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+          "type": "Unknown",
+          "displayName": "Python 3.9.7 64-bit"
+        }
+      },
+      "expiry": 1632376384182
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "ac57a3f9ded4b6301ef6cd7c81dc1e2c907bbfe2d7cb200ab98be2d2d42fc6def70e1e06e7e8d8635a2d02361ee87bf8f423220cabf314a7ab2f0596471f0144",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "2e71b06f31db29097dae651e6a7439c50767880bd3bccfcf2ab9f149a01e29cbdd1e72a23e3d76f21d09967766c9ffec63fef7a0f88b43b629902b21bbcb7ca3",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d2749cbcb2b0fbe40228bba6aa044cb195c90941c23223bc8d6c9d227e8b1740ce8424c5db1a751776cfe1e88111cb5f7e7557cd84867401e09140d4e8d12d3b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "d2749cbcb2b0fbe40228bba6aa044cb195c90941c23223bc8d6c9d227e8b1740ce8424c5db1a751776cfe1e88111cb5f7e7557cd84867401e09140d4e8d12d3b",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python2.7",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.8.2-final",
+          "major": 3,
+          "minor": 8,
+          "patch": 2,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.8.2-final"
+        },
+        "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      }
+    ],
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2"
+      },
+      "expiry": 1632376278225
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "2.7.16-final",
+          "major": 2,
+          "minor": 7,
+          "patch": 16,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "2.7.16-final"
+        },
+        "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe",
+        "type": "Unknown"
+      }
+    ],
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe",
+      "type": "Unknown"
+    },
+    "PipEnvInformation": [],
+    "/Users/kaiz/Desktop/DHMT/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.7 64-bit ('env': venv)",
+        "hash": "b7c3ce3ab945e915be66ddb6437c0e6346a9d51839c9bfb8114bd0b6545d51a83ab97c961618231b9b2fa0d1ee2d3bfb5b2c20ccd9492dd3c4307ab9186331a9-ac80d5f7bcba67a25e15c6e61acaef64"
+      },
+      "expiry": 1632376278392
+    },
+    "/usr/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-f5b651b9c4b75532b11ae83303c43d14"
+      },
+      "expiry": 1632376278397
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.7 64-bit",
+        "hash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258-198e3ac8741e675c415e41d1d6619f62"
+      },
+      "expiry": 1632376279053
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.8.2 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-4bc3c9f5346452a4fe404c621ebcd443"
+      },
+      "expiry": 1632376278436
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 2.7.16 64-bit",
+        "hash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2-a9fb100b1ab04c53a774363838d4885e"
+      },
+      "expiry": 1632376278441
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+      "type": "Unknown",
+      "displayName": "Python 3.9.7 64-bit"
+    },
+    "/usr/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1632376278642
+    },
+    "/Users/kaiz/Desktop/DHMT/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "b7c3ce3ab945e915be66ddb6437c0e6346a9d51839c9bfb8114bd0b6545d51a83ab97c961618231b9b2fa0d1ee2d3bfb5b2c20ccd9492dd3c4307ab9186331a9",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kaiz/Desktop/DHMT/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.7-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.7-final"
+          },
+          "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+          "fileHash": "b7c3ce3ab945e915be66ddb6437c0e6346a9d51839c9bfb8114bd0b6545d51a83ab97c961618231b9b2fa0d1ee2d3bfb5b2c20ccd9492dd3c4307ab9186331a9",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.9.7 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1632376278680
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.8.2-final",
+            "major": 3,
+            "minor": 8,
+            "patch": 2,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.8.2-final"
+          },
+          "sysPrefix": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 3.8.2 64-bit"
+        }
+      },
+      "expiry": 1632376278693
+    },
+    "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+        "info": {
+          "architecture": 3,
+          "path": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "2.7.16-final",
+            "major": 2,
+            "minor": 7,
+            "patch": 16,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "2.7.16-final"
+          },
+          "sysPrefix": "/System/Library/Frameworks/Python.framework/Versions/2.7",
+          "fileHash": "fe779c276a2cbfead74d365db0ac2cbfcea62106a4f0a4f6c9ded35d45b630e271af9461b8083f72f5c25478015c8409ecfa63d05b8eac8c5d1442777dd260d2",
+          "type": "Unknown",
+          "displayName": "Python 2.7.16 64-bit"
+        }
+      },
+      "expiry": 1632376278703
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+      "type": "Unknown",
+      "displayName": "Python 3.9.7 64-bit"
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe"
+      },
+      "expiry": 1632381224072
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+        "fileHash": "2e71b06f31db29097dae651e6a7439c50767880bd3bccfcf2ab9f149a01e29cbdd1e72a23e3d76f21d09967766c9ffec63fef7a0f88b43b629902b21bbcb7ca3"
+      },
+      "expiry": 1632381224145
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.7 64-bit",
+        "hash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe-c23d7cf078467b0e97e14ad2f5ef4ca0"
+      },
+      "expiry": 1632381224297
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe",
+        "info": {
+          "architecture": 3,
+          "path": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.7-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.7-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+          "fileHash": "fc10b7e3a58db690995a2928e7be424229157154f409af2a7692aa18b77cacd3daf97659cf8652b655666a8d65dfdc5728da3229685a506dd81e0bce66e53efe",
+          "type": "Unknown",
+          "displayName": "Python 3.9.7 64-bit"
+        }
+      },
+      "expiry": 1632381224358
+    },
+    "/Users/kaiz/Desktop/test/env/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/env",
+        "fileHash": "d37b9395c2853c15ed1e4ef405ad7195f5cf8e408c115ab0059ed12e304f36773a04668f3e52eb7a052083c0ab7d0694b906ceaf1a1c38a424e292da66b3a900"
+      },
+      "expiry": 1632389881259
+    },
+    "/Users/kaiz/Desktop/test/env/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/env",
+        "fileHash": "9c4506d8d7077286d372e9df3a8073a147d9693bf0d80da92df1e388f5e4ee2be8e098734a9128e9b5b84ef99fa4cad0e57155e8d0b34ed8022feae1e6e9cd06"
+      },
+      "expiry": 1632389881262
+    },
+    "/Users/kaiz/Desktop/test/env/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/env",
+        "fileHash": "eaa77121cee3cf9846fdd8b88458f612e2aa681977065bf9dc64e21ed171b5752b979d14734b5bc3966f2c1902a7e6bc716db8e3b7a3847d12b42cca3f0b5f85"
+      },
+      "expiry": 1632389881520
+    },
+    "/Users/kaiz/Desktop/test/env/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.7 64-bit ('env': venv)",
+        "hash": "9c4506d8d7077286d372e9df3a8073a147d9693bf0d80da92df1e388f5e4ee2be8e098734a9128e9b5b84ef99fa4cad0e57155e8d0b34ed8022feae1e6e9cd06-9f10dbe610fa3b0569ef97827d2f6e6c"
+      },
+      "expiry": 1632389881428
+    },
+    "/Users/kaiz/Desktop/test/env/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "9c4506d8d7077286d372e9df3a8073a147d9693bf0d80da92df1e388f5e4ee2be8e098734a9128e9b5b84ef99fa4cad0e57155e8d0b34ed8022feae1e6e9cd06",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kaiz/Desktop/test/env/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.7-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.7-final"
+          },
+          "sysPrefix": "/Users/kaiz/Desktop/test/env",
+          "fileHash": "9c4506d8d7077286d372e9df3a8073a147d9693bf0d80da92df1e388f5e4ee2be8e098734a9128e9b5b84ef99fa4cad0e57155e8d0b34ed8022feae1e6e9cd06",
+          "envName": "env",
+          "type": "Venv",
+          "displayName": "Python 3.9.7 64-bit ('env': venv)"
+        }
+      },
+      "expiry": 1632389881502
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+      "fileHash": "a2977a63c291a4463fc74f997a01752509c8bef88f5fcfa6029f09473e051af32cc988abea3a73c5bcc44d621bb5d63877a026289aa8de1eea51e6444663c258",
+      "type": "Unknown",
+      "displayName": "Python 3.9.7 64-bit"
+    },
+    "/Users/kaiz/Desktop/test/.venv/bin/python3.9.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "ac57a3f9ded4b6301ef6cd7c81dc1e2c907bbfe2d7cb200ab98be2d2d42fc6def70e1e06e7e8d8635a2d02361ee87bf8f423220cabf314a7ab2f0596471f0144"
+      },
+      "expiry": 1632392186952
+    },
+    "/Users/kaiz/Desktop/test/.venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8"
+      },
+      "expiry": 1632392187086
+    },
+    "/Users/kaiz/Desktop/test/.venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877"
+      },
+      "expiry": 1632392187001
+    },
+    "InterpreterAutoSeletionRule-environment": {
+      "architecture": 3,
+      "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+      "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
+      "type": "VirtualEnv"
+    },
+    "/Users/kaiz/Desktop/test/.venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.7 64-bit",
+        "hash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877-cecf3d0d7f7c6f357273ac38e4c3979f"
+      },
+      "expiry": 1632392187477
+    },
+    "/Users/kaiz/Desktop/test/.venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/kaiz/Desktop/test/.venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.7-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 7,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.7-final"
+          },
+          "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+          "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877",
+          "type": "Unknown",
+          "displayName": "Python 3.9.7 64-bit"
+        }
+      },
+      "expiry": 1632392187492
+    },
+    "ProposeLSBanner": false
+  },
+  "coc-python|/Users/kaiz/Desktop/DHMT": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0426af7509a89c5ad75b9f11da89e22a": [],
+    "SelectedPythonPath": "/Users/kaiz/Desktop/DHMT/env/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0426af7509a89c5ad75b9f11da89e22a": [
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "b7c3ce3ab945e915be66ddb6437c0e6346a9d51839c9bfb8114bd0b6545d51a83ab97c961618231b9b2fa0d1ee2d3bfb5b2c20ccd9492dd3c4307ab9186331a9",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "50f12cb70e43cc88d1b43973ef379a3485128fe33d149b65aaa8b20e8db9138caf551f93c64a32126f74e9aa958505d2c87eddc903159e3e87991eac6efcb492",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "e7712412d79c459bda8d4922c037e7dbaa0b760606973fca29ab4c408425c1a48036a6dd64d7cb7d64b9710459d3569b1b6f7308c7bc4c2fe8fe46f094357964",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kaiz/Desktop/DHMT": {
+      "architecture": 3,
+      "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+      "fileHash": "50f12cb70e43cc88d1b43973ef379a3485128fe33d149b65aaa8b20e8db9138caf551f93c64a32126f74e9aa958505d2c87eddc903159e3e87991eac6efcb492",
+      "type": "VirtualEnv"
+    },
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "b7c3ce3ab945e915be66ddb6437c0e6346a9d51839c9bfb8114bd0b6545d51a83ab97c961618231b9b2fa0d1ee2d3bfb5b2c20ccd9492dd3c4307ab9186331a9",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "50f12cb70e43cc88d1b43973ef379a3485128fe33d149b65aaa8b20e8db9138caf551f93c64a32126f74e9aa958505d2c87eddc903159e3e87991eac6efcb492",
+        "envName": "env",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/DHMT/env/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/DHMT/env",
+        "fileHash": "e7712412d79c459bda8d4922c037e7dbaa0b760606973fca29ab4c408425c1a48036a6dd64d7cb7d64b9710459d3569b1b6f7308c7bc4c2fe8fe46f094357964",
+        "envName": "env",
+        "type": "Venv"
+      }
+    ]
+  },
+  "coc-python|/Users/kaiz/Desktop/test": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:a3bdcaa47e0110d4fed910fd671c081f": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:a3bdcaa47e0110d4fed910fd671c081f": [
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "ac57a3f9ded4b6301ef6cd7c81dc1e2c907bbfe2d7cb200ab98be2d2d42fc6def70e1e06e7e8d8635a2d02361ee87bf8f423220cabf314a7ab2f0596471f0144",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "SelectedPythonPath": "/Users/kaiz/Desktop/test/env/bin/python3.9",
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "40cbef661a21d83b3a86c89401c5d96893559e2b27baaeceee33d1763dd6a032ffab651e171a56c9241e748bdf4cc09e01ead4b4a964936240356edcbb4c6877",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
+        "envName": ".venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/kaiz/Desktop/test/.venv/bin/python3.9",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.7-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 7,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.7-final"
+        },
+        "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+        "fileHash": "ac57a3f9ded4b6301ef6cd7c81dc1e2c907bbfe2d7cb200ab98be2d2d42fc6def70e1e06e7e8d8635a2d02361ee87bf8f423220cabf314a7ab2f0596471f0144",
+        "envName": ".venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/kaiz/Desktop/test": {
+      "architecture": 3,
+      "path": "/Users/kaiz/Desktop/test/.venv/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.9.7-final",
+        "major": 3,
+        "minor": 9,
+        "patch": 7,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.9.7-final"
+      },
+      "sysPrefix": "/Users/kaiz/Desktop/test/.venv",
+      "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
+      "type": "VirtualEnv"
+    }
+  }
+}

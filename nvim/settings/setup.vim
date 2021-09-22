@@ -3,9 +3,10 @@ let mapleader = ","
 
 color desert
 set cursorline
+set cursorcolumn
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
-set relativenumber
+" set relativenumber
 set number
 set numberwidth=5
 set signcolumn=yes
@@ -21,20 +22,14 @@ set laststatus=2
 set autowrite
 " set spell
 set backspace=indent,eol,start
-
 set autoindent
 set smartindent
 set shiftround
 set autoread
-
 set mouse=a 			
-set tabstop=4 				" 
+set tabstop=4 				 
 set shiftwidth=4
-
 set expandtab
-
-
-
 set encoding=utf-8
 set nojoinspaces
 set complete-=i,kspell
@@ -50,9 +45,9 @@ if (has("termguicolors"))
 set termguicolors
 endif
 syntax enable
-
 set background=dark
-colorscheme dracula
+" colorscheme dracula
+colorscheme gruvbox
 filetype plugin indent on
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -180,19 +175,21 @@ let g:coc_snippet_prev = '<c-k>'
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
 
-
-
-
 "Prettier
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
 
-
 "Python
 let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.9/bin/python3'
 let g:node_client_debug = 1
+
+" python3 << EOF
+" import os
+" if 'VIRTUAL_ENV' in os.environ:
+"   os.system('pip install pylint')
+" EOF
 
 "gitguter
 highlight GitGutterAdd    guifg=#009900 ctermfg=Green

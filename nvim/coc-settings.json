@@ -1,10 +1,10 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json", "python","javascriptreact","typescript","typescriptreact"],
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "graphql", "html", "yaml",  "json","javascriptreact","typescript","typescriptreact"],
 
   // python config
-  "python.pythonPath": "/usr/local/bin/python3",
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+  /* "python.linting.enabled": true, */
+  /* "python.linting.pylintEnabled": true, */
 
   "snippets.ultisnips.directories":
   [

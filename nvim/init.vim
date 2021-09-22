@@ -1,8 +1,8 @@
 
 
 call plug#begin('~/.config/nvim/plugged')
-
-Plug 'dracula/vim'
+Plug 'morhetz/gruvbox'
+" Plug 'dracula/vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 
@@ -42,7 +42,7 @@ call plug#end()
 
 let nvim_settings_dir = '~/.config/nvim/settings/'
 execute 'source '.nvim_settings_dir.'setup.vim'
-execute 'source '.nvim_settings_dir.'dracula.vim'
+" execute 'source '.nvim_settings_dir.'dracula.vim'
 execute 'source '.nvim_settings_dir.'fzf.vim'
 execute 'source '.nvim_settings_dir.'coc.vim'
 execute 'source '.nvim_settings_dir.'floaterm.vim'
