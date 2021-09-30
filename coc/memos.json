@@ -1710,5 +1710,8 @@
       "fileHash": "66bd9fb54533b5d9669bd986e3bac4ca5ca6fb8e28cd1b42f1b8b405931a21bb0e0f763ce8dc93645bae0589022f40d0f42e7228d70529a378d9de1caf4e01b8",
       "type": "VirtualEnv"
     }
+  },
+  "coc-eslint|global": {
+    "eslintAlwaysAllowExecution": true
   }
 }

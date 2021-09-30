@@ -1,14 +1,17 @@
 let mapleader = ","
-" set nocompatible
+set nocompatible
 
 color desert
 set cursorline
-set cursorcolumn
+" set cursorcolumn
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
+
+
+set modifiable
 " set relativenumber
 set number
-set numberwidth=5
+" set numberwidth=5
 set signcolumn=yes
 " set hidden
 set nobackup
@@ -56,8 +59,10 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
 endif
 
 
+
+
 let g:lightline = {
-      \ 'colorscheme': 'darcula',
+      \ 'colorscheme': 'one',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'cocstatus', 'readonly', 'filename', 'modified' ] ],
@@ -190,6 +195,12 @@ let g:node_client_debug = 1
 " if 'VIRTUAL_ENV' in os.environ:
 "   os.system('pip install pylint')
 " EOF
+
+
+" Tagbar
+" nmap <F8> :TagbarToggle<CR>
+
+
 
 "gitguter
 highlight GitGutterAdd    guifg=#009900 ctermfg=Green
