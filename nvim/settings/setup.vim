@@ -1,4 +1,5 @@
-let mapleader = ","
+let mapleader = " "
+
 set nocompatible
 
 color desert
@@ -7,13 +8,12 @@ set cursorline
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
 
-
 set modifiable
-" set relativenumber
+set relativenumber
 set number
 " set numberwidth=5
 set signcolumn=yes
-" set hidden
+set hidden
 set nobackup
 set nowritebackup
 set noswapfile
@@ -60,25 +60,33 @@ endif
 
 
 
+" let g:lightline = {
+"       \ 'colorscheme': 'one',
+"       \ 'active': {
+"       \   'left': [ [ 'mode', 'paste' ],
+"       \             [ 'gitbranch', 'cocstatus', 'readonly', 'filename', 'modified' ] ],
+"       \   'right': [ [ 'lineinfo', 'percent' ],
+"       \              [ 'fileformat', 'fileencoding', 'filetype' ] ]
+"       \ },
+"       \ 'separator': { 'left': '', 'right': '' },
+"       \ 'subseparator': { 'left': '', 'right': '' },
+"       \ 'component_function': {
+"       \   'gitbranch': 'fugitive#head',
+"       \   'cocstatus': 'coc#status'
+"       \ },
+"       \ 'component': {
+"       \   'lineinfo': '%3l:%-2v%<',
+"       \ },
+"       \ }
+let g:airline_theme='onedark'
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#formatter='unique_tail'
+let g:airline_powerline_fonts=1
+nnoremap <C-z> :bnext<CR>
+nnoremap <C-x> :bprev<CR>
 
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'cocstatus', 'readonly', 'filename', 'modified' ] ],
-      \   'right': [ [ 'lineinfo', 'percent' ],
-      \              [ 'fileformat', 'fileencoding', 'filetype' ] ]
-      \ },
-      \ 'separator': { 'left': '', 'right': '' },
-      \ 'subseparator': { 'left': '', 'right': '' },
-      \ 'component_function': {
-      \   'gitbranch': 'fugitive#head',
-      \   'cocstatus': 'coc#status'
-      \ },
-      \ 'component': {
-      \   'lineinfo': '%3l:%-2v%<',
-      \ },
-      \ }
+
+
 "close-tag
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.vue'
 let g:closetag_emptyTags_caseSensitive = 1
@@ -110,7 +118,6 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 let NERDTreeShowHidden=1
 
 "let NERDTreeMapOpenInTab='<ENTER>'
-
 " Git status icon
 let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Modified'  :'✹',
@@ -150,7 +157,6 @@ let g:AutoPairsFlyMode = 1
 let g:closetag_filenames = '*.html,*.js,*.jsx,*.vue'
 let g:closetag_emptyTags_caseSensitive = 1
 " let g:jsx_ext_required = 0
-
 
 "emmet
 let g:user_emmet_mode='n'    "only enable normal mode functions.

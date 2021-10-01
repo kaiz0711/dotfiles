@@ -3,8 +3,10 @@
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
 " Plug 'dracula/vim'
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 "GIT
 Plug 'tpope/vim-fugitive'

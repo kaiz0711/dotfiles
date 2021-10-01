@@ -17,41 +17,41 @@ window:
   
   dynamic_title: true
 
+
+# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
-    background: '0x292C3E'
-    foreground: '0xEBEBEB'
-
-  # Cursor colors
-  cursor:
-    text: '0xFF261E'
-    cursor: '0xFF261E'
+    # hard contrast: background = '0x1d2021'
+    background: '0x282828'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xebdbb2'
 
   # Normal colors
   normal:
-    black:   '0x0d0d0d'
-    red:     '0xFF301B'
-    green:   '0xA0E521'
-    yellow:  '0xFFC620'
-    blue:    '0x1BA6FA'
-    magenta: '0x8763B8'
-    cyan:    '0x21DEEF'
-    white:   '0xEBEBEB'
+    black:   '0x282828'
+    red:     '0xcc241d'
+    green:   '0x98971a'
+    yellow:  '0xd79921'
+    blue:    '0x458588'
+    magenta: '0xb16286'
+    cyan:    '0x689d6a'
+    white:   '0xa89984'
 
   # Bright colors
   bright:
-    black:   '0x6D7070'
-    red:     '0xFF4352'
-    green:   '0xB8E466'
-    yellow:  '0xFFD750'
-    blue:    '0x1BA6FA'
-    magenta: '0xA578EA'
-    cyan:    '0x73FBF1'
-    white:   '0xFEFEF8'
+    black:   '0x928374'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xebdbb2'
 
 
 
+   
 
 font:
   normal:
@@ -103,10 +103,10 @@ scrolling:
   # scrollback is enabled (history > 0).
   multiplier: 10
 
-  draw_bold_text_with_bright_colors: true
+draw_bold_text_with_bright_colors: true
 
 
-background_opacity: 0.8
+background_opacity: 0.7
 
 cursor:
   nfocused_hollow: true
@@ -114,7 +114,7 @@ cursor:
     blinking: Always
 
 
-mouse:
+mouse: 
   # Click settings
   #
   # The `double_click` and `triple_click` settings control the time
@@ -125,8 +125,7 @@ mouse:
 
   # If this is `true`, the cursor is temporarily hidden when typing.
   hide_when_typing: true
-
-
+ 
 
 
 debug:
@@ -162,10 +161,10 @@ key_bindings:
   - { key: C,        mods: Command, action: Copy                         }
   - { key: Paste,                   action: Paste                        }
   - { key: Copy,                    action: Copy                         }
-  - { key: F,        mods: Command,       chars: "\x02/"                       }  # search (upwards) (see tmux.conf)
+  - { key: Return,   mods: Command, action: ToggleFullscreen             }
   - { key: H,        mods: Command, action: Hide                         }
   - { key: Q,        mods: Command, action: Quit                         }
-  - { key: W,        mods: Command, action: Quit                         }
+  # - { key: W,        mods: Command, action: Quit                         }
   - { key: Home,                    chars: "\x1bOH",   mode: AppCursor   }
   - { key: Home,                    chars: "\x1b[H",   mode: ~AppCursor  }
   - { key: End,                     chars: "\x1bOF",   mode: AppCursor   }
@@ -265,3 +264,5 @@ key_bindings:
   - { key: F11,      mods: Command, chars: "\x1b[23;3~"                  }
   - { key: F12,      mods: Command, chars: "\x1b[24;3~"                  }
   - { key: NumpadEnter,             chars: "\n"                          }
+
+ 
