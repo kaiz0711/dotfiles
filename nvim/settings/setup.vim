@@ -9,6 +9,7 @@ hi CursorLine term=bold cterm=bold guibg=Grey40
 
 
 set modifiable
+
 set relativenumber
 set number
 " set numberwidth=5
@@ -40,6 +41,15 @@ set complete-=i,kspell
 set clipboard=unnamed
 set lazyredraw
 set confirm
+
+set updatetime=300                      " Faster completion
+set timeoutlen=500   
+
+
+" Alternate way to save
+nnoremap <C-s> :w<CR>
+" Alternate way to quit
+nnoremap <C-Q> :wq!<CR>
 
 " set backupdir=~/.config/nvim/Caches
 " set dir=~/.config/nvim/Caches
@@ -78,10 +88,33 @@ endif
 "       \   'lineinfo': '%3l:%-2v%<',
 "       \ },
 "       \ }
-let g:airline_theme='onedark'
-let g:airline#extensions#tabline#enabled=1
-let g:airline#extensions#tabline#formatter='unique_tail'
-let g:airline_powerline_fonts=1
+
+
+
+" enable tabline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ''
+let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tabline#right_sep = ''
+let g:airline#extensions#tabline#right_alt_sep = ''
+
+" enable powerline fonts
+let g:airline_powerline_fonts = 1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+
+" Switch to your current theme
+let g:airline_theme = 'onedark'
+
+" Always show tabs
+set showtabline=2
+
+" We don't need to see things like -- INSERT -- anymore
+set noshowmode
+
+
+
+
 nnoremap <C-z> :bnext<CR>
 nnoremap <C-x> :bprev<CR>
 
@@ -194,6 +227,7 @@ nmap <leader>f  <Plug>(coc-format-selected)
 
 "Python
 let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.9/bin/python3'
+" let g:python3_host_prog = expand('~/.venv/bin/python3')
 let g:node_client_debug = 1
 
 " python3 << EOF
@@ -205,6 +239,7 @@ let g:node_client_debug = 1
 
 " Tagbar
 " nmap <F8> :TagbarToggle<CR>
+" autocmd CursorHold * silent call CocActionAsync('highlight')
 
 
 
@@ -216,3 +251,12 @@ nmap ]h <Plug>(GitGutterNextHunk)
 nmap [h <Plug>(GitGutterPrevHunk)
 let g:gitgutter_enabled = 1
 let g:gitgutter_map_keys = 0
+
+
+
+
+"rainbow
+let g:rainbow#max_level = 16
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+
+autocmd FileType * RainbowParentheses

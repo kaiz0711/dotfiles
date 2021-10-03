@@ -1,4 +1,4 @@
-
+" lua require'plug-colorizer'
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
@@ -7,6 +7,11 @@ Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+
+
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'junegunn/rainbow_parentheses.vim'
 
 "GIT
 Plug 'tpope/vim-fugitive'
@@ -21,7 +26,7 @@ Plug 'tpope/vim-commentary'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 			 
 Plug 'junegunn/fzf.vim'
 
-"Plug 'airblade/vim-rooter'
+Plug 'airblade/vim-rooter'
 " Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 
@@ -43,14 +48,22 @@ Plug 'jparise/vim-graphql'
 " Plug 'terryma/vim-multiple-cursors'
 
 
+Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+
+
+
 call plug#end()
 
 let nvim_settings_dir = '~/.config/nvim/settings/'
 execute 'source '.nvim_settings_dir.'setup.vim'
-" execute 'source '.nvim_settings_dir.'cursors.vim'
+execute 'source '.nvim_settings_dir.'rnvimr.vim'
 execute 'source '.nvim_settings_dir.'fzf.vim'
 execute 'source '.nvim_settings_dir.'coc.vim'
 execute 'source '.nvim_settings_dir.'floaterm.vim'
 execute 'source '.nvim_settings_dir.'javascript.vim'
 execute 'source '.nvim_settings_dir.'vimspector.vim'
 
+
+"LUA
+let nvim_lua_dir = "~/.config/nvim/lua/"
+execute 'luafile '.nvim_lua_dir.'plug-colorizer.lua'

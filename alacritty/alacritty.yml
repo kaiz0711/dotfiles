@@ -1,11 +1,10 @@
 
 env:
   TERM: xterm-256color
-
 window:
   padding:
-    x: 2
-    y: 2
+    x: 3
+    y: 3
   
   dimensions:
     columns: 170
@@ -16,6 +15,7 @@ window:
   startup_mode: Windowed
   
   dynamic_title: true
+  title: Alacritty
 
 
 # Colors (Gruvbox dark)
@@ -49,9 +49,33 @@ colors:
     cyan:    '0x8ec07c'
     white:   '0xebdbb2'
 
+# # Space Duck
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#0f111b'
+#     foreground: '#ecf0c1'
+#   # Normal colors
+#   normal:
+#     black:   '#000000'
+#     red:     '#e33400'
+#     green:   '#5ccc96'
+#     yellow:  '#b3a1e6'
+#     blue:    '#00a3cc'
+#     magenta: '#f2ce00'
+#     cyan:    '#7a5ccc'
+#     white:   '#686f9a'
 
-
-   
+#   # Bright colors
+#   bright:
+#     black:   '#686f9a'
+#     red:     '#e33400'
+#     green:   '#5ccc96'
+#     yellow:  '#b3a1e6'
+#     blue:    '#00a3cc'
+#     magenta: '#f2ce00'
+#     cyan:    '#7a5ccc'
+#     white:   '#f0f1ce'
 
 font:
   normal:
@@ -106,7 +130,7 @@ scrolling:
 draw_bold_text_with_bright_colors: true
 
 
-background_opacity: 0.7
+background_opacity: 0.9
 
 cursor:
   nfocused_hollow: true
@@ -164,7 +188,7 @@ key_bindings:
   - { key: Return,   mods: Command, action: ToggleFullscreen             }
   - { key: H,        mods: Command, action: Hide                         }
   - { key: Q,        mods: Command, action: Quit                         }
-  # - { key: W,        mods: Command, action: Quit                         }
+  - { key: W,        mods: Command, action: Quit                         }
   - { key: Home,                    chars: "\x1bOH",   mode: AppCursor   }
   - { key: Home,                    chars: "\x1b[H",   mode: ~AppCursor  }
   - { key: End,                     chars: "\x1bOF",   mode: AppCursor   }
@@ -266,3 +290,10 @@ key_bindings:
   - { key: NumpadEnter,             chars: "\n"                          }
 
  
+
+
+# shell:
+#   program: /usr/local/bin/zsh
+#   args:
+#     - --login
+
