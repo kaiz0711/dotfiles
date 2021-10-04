@@ -1,1 +1,9 @@
-# nvim-config
+Macos
+*********
+1.Neovim
+2.Tmux
+3.Kitty
+4.Skhd
+5.Yabai
+6.ranger
+7.Spacebar
