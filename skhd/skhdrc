@@ -114,3 +114,5 @@ lctrl + alt + cmd + shift - r : \
 # change layout of desktop
 ctrl + alt - a : yabai -m space --layout bsp
 ctrl + alt - d : yabai -m space --layout stack
+
+
