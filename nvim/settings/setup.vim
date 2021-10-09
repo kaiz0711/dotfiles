@@ -7,9 +7,9 @@ set cursorline
 " set cursorcolumn
 hi CursorLine term=bold cterm=bold guibg=Grey40
 
-
+set fileformat=unix
 set modifiable
-
+set colorcolumn=111
 set relativenumber
 set number
 " set numberwidth=5
@@ -44,6 +44,7 @@ set confirm
 
 set updatetime=300                      " Faster completion
 set timeoutlen=500   
+highlight Comment gui=italic
 
 
 " Alternate way to save
@@ -59,35 +60,14 @@ set termguicolors
 endif
 syntax enable
 set background=dark
-" colorscheme dracula
-colorscheme gruvbox
+colorscheme dracula
+" colorscheme gruvbox
 filetype plugin indent on
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
 if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
   syntax on
 endif
-
-
-
-" let g:lightline = {
-"       \ 'colorscheme': 'one',
-"       \ 'active': {
-"       \   'left': [ [ 'mode', 'paste' ],
-"       \             [ 'gitbranch', 'cocstatus', 'readonly', 'filename', 'modified' ] ],
-"       \   'right': [ [ 'lineinfo', 'percent' ],
-"       \              [ 'fileformat', 'fileencoding', 'filetype' ] ]
-"       \ },
-"       \ 'separator': { 'left': '', 'right': '' },
-"       \ 'subseparator': { 'left': '', 'right': '' },
-"       \ 'component_function': {
-"       \   'gitbranch': 'fugitive#head',
-"       \   'cocstatus': 'coc#status'
-"       \ },
-"       \ 'component': {
-"       \   'lineinfo': '%3l:%-2v%<',
-"       \ },
-"       \ }
 
 
 
@@ -115,8 +95,8 @@ set noshowmode
 
 
 
-nnoremap <C-z> :bnext<CR>
-nnoremap <C-x> :bprev<CR>
+nnoremap <C-x> :bnext<CR>
+nnoremap <C-z> :bprev<CR>
 
 
 
@@ -197,7 +177,10 @@ let g:user_emmet_leader_key=','
 
 
 """snippet
-"let g:UltiSnipsJumpForwardTrigger="<c-b>"
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<Tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
+""let g:UltiSnipsJumpForwardTrigger="<c-b>"
 "let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 "" If you want :UltiSnipsEdit to split your window.
@@ -230,6 +213,7 @@ let g:python3_host_prog = '/Library/Frameworks/Python.framework/Versions/3.9/bin
 " let g:python3_host_prog = expand('~/.venv/bin/python3')
 let g:node_client_debug = 1
 
+
 " python3 << EOF
 " import os
 " if 'VIRTUAL_ENV' in os.environ:
@@ -238,8 +222,8 @@ let g:node_client_debug = 1
 
 
 " Tagbar
-" nmap <F8> :TagbarToggle<CR>
-" autocmd CursorHold * silent call CocActionAsync('highlight')
+nmap <leader>tb :TagbarToggle<CR>
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
 
 
@@ -253,7 +237,15 @@ let g:gitgutter_enabled = 1
 let g:gitgutter_map_keys = 0
 
 
+:nnoremap <Leader>q :Bdelete<CR>
 
+" " comment
+" nnoremap <space>/ :Commentary<CR>
+" vnoremap <space>/ :Commentary<CR>
+
+" nmap <leader>cod :Codi<CR>
+" Change the color
+highlight CodiVirtualText guifg=cyan
 
 "rainbow
 let g:rainbow#max_level = 16

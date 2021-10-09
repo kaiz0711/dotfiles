@@ -10,7 +10,8 @@
       "javascriptreact",
       "typescript",
       "typescriptreact",
-      "graphql"  
+      "graphql",
+      "python"
   ]
       ,
   /* "coc.preferences.colorSupport": false, */
@@ -21,11 +22,12 @@
   /* "python.linting.enabled": true, */
   /* "python.linting.pylintEnabled": true, */
 
-  "snippets.ultisnips.directories":
-  [
-    "UltiSnips",
-    "~/.config/nvim/utils/snips"
-  ]
-  /* "eslint.autoFixOnSave": true */
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+  /* "snippets.ultisnips.directories": */
+  /* [ */
+  /*   "UltiSnips", */
+  /*   "~/.config/nvim/utils/snips" */
+  /* ] */
+  /* /1* "eslint.autoFixOnSave": true *1/ */
 }
 
