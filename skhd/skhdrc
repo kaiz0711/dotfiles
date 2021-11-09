@@ -11,7 +11,14 @@ shift + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
 
 # open iTerm
-lctrl + alt + cmd - return : open -n -a kitty
+ctrl + fn - k : open -n -a kitty
+
+ctrl + fn - c : open -na /Applications/Google\ Chrome.app
+ctrl + fn - v : open -na /Applications/Visual\ Studio\ Code.app
+ctrl + fn - s : open -na /Applications/Spotify.app
+ctrl + fn - d : open -na /Applications/Discord.app
+ctrl + fn - m : open -na /Applications/Spotify.app
+
 
 # focus window
 lctrl + alt + cmd - h : yabai -m window --focus west
@@ -99,13 +106,6 @@ lctrl + alt + cmd + shift - r : \
     /usr/bin/env osascript <<< \
         "display notification \"Restarting Yabai\" with title \"Yabai\""; \
     brew services restart xorpse/formulae/yabai
-
-
-
-
-
-
-
 
 
 

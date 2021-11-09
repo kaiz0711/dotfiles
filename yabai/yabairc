@@ -60,7 +60,10 @@ yabai -m rule --add app="Zalo"       space=4
 yabai -m rule --add app="Microsoft Word"  space=1
 yabai -m rule --add app="Microsoft Excel"  space=1
 yabai -m rule --add app="Microsoft PowerPoint"  space=1
-
+yabai -m rule --add app="Spotify"  space=5
+yabai -m rule --add app="Postman"  space=6
+yabai -m rule --add app="Discord"  space=1
+yabai -m rule --add app="Visual Studio Code"  space=5
 yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
 

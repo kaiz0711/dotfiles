@@ -1,33 +1,46 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
-      "css", 
-      "markdown", 
-      "javascript", 
-      "graphql", 
-      "html", 
-      "yaml",  
-      "json",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact",
-      "graphql",
-      "python"
-  ]
-      ,
-  /* "coc.preferences.colorSupport": false, */
-
-  /* "coc.preferences.colorSupport": true, */
-  // python config
-  /* "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3", */
-  /* "python.linting.enabled": true, */
-  /* "python.linting.pylintEnabled": true, */
-
+    "css",
+    "markdown",
+    "javascript",
+    "html",
+    "yaml",
+    "json",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "graphql",
+    "python",
+    "java"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "suggest.completionItemKindLabels": {
+    "method": "  ",
+    "function": "  ",
+    "variable": "[]",
+    "field": "  ",
+    "typeParameter": "<>",
+    "constant": "  ",
+    "class": " פּ ",
+    "interface": " 蘒",
+    "struct": "  ",
+    "event": "  ",
+    "operator": "  ",
+    "module": "  ",
+    "property": "  ",
+    "enum": " 練",
+    "reference": "  ",
+    "keyword": "  ",
+    "file": "  ",
+    "folder": " ﱮ ",
+    "color": "  ",
+    "unit": " 塞 ",
+    "snippet": "  ",
+    "text": "  ",
+    "constructor": "  ",
+    "value": "  ",
+    "enumMember": "  "
+  },
   "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
-  /* "snippets.ultisnips.directories": */
-  /* [ */
-  /*   "UltiSnips", */
-  /*   "~/.config/nvim/utils/snips" */
-  /* ] */
-  /* /1* "eslint.autoFixOnSave": true *1/ */
 }
-

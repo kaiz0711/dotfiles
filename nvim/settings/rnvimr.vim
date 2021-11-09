@@ -1,11 +1,8 @@
-" Make Ranger replace netrw and be the file explorer
+let g:rnvimr_ex_enable = 1
+
+nmap <space>r :RnvimrToggle<CR>
 
 
-
-" Make Ranger replace Netrw and be the file explorer
-let g:rnvimr_enable_ex = 1
-
-" Make Ranger to be hidden after picking a file
 let g:rnvimr_enable_picker = 1
 
 " Disable a border for floating window
@@ -27,10 +24,6 @@ let g:rnvimr_shadow_winblend = 70
 let g:rnvimr_ranger_cmd = 'ranger --cmd="set draw_borders both"'
 
 
-
-
-
-nmap <space>r :RnvimrToggle<CR>
 " " Link CursorLine into RnvimrNormal highlight in the Floating window
 " highlight link RnvimrNormal CursorLine
 
@@ -45,6 +38,7 @@ nmap <space>r :RnvimrToggle<CR>
 
 " " Resize floating window by single preset layout
 " tnoremap <silent> <M-y> <C-\><C-n>:RnvimrResize 6<CR>
+
 
 " Map Rnvimr action
 let g:rnvimr_action = {
